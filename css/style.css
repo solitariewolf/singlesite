@@ -119,10 +119,73 @@ head{
 
 /* contact */
 
+.contact{
+    margin-top: 15px;
+}
+
 .contact-form{
-    padding: 5px;
-    width: 270px;
-    height: 400px;
-    background-color: red;
-    display: block;
+    padding: 10px;
+    width: 500px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 217, 0);
+    margin: auto;
+    border-radius: 15px;
+    border: 2px black solid;
+}
+
+.contact-form h3{
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.contact-form p{
+    text-align: center;
+    color: white;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.contact-form   input[type="text"],
+.contact-form   input[type="number"]{
+    width: 460px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    padding: 15px;
+    margin: 9px;
+}
+
+.contact-form   input[type="text"]:hover,
+.contact-form   input[type="number"]:hover,
+.contact-form textarea:hover{
+    background-color: #cecbcb;
+}
+
+.contact-form textarea{
+    padding: 15px;
+    margin: 9px;
+    border-radius: 7px;
+    resize: none;
+    border: none;
+}
+
+.contact input[type="submit"]{
+    height: 50px;
+    width: 350px;
+    background-color: rgb(255, 96, 33);
+    margin: auto;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    font-size: 19px;
+    color: aliceblue;
+}
+
+.contact input[type="submit"]:hover{
+    background-color: rgb(255, 51, 0);
 }
